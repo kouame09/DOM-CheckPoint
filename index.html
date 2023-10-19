@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title>DOM checkpoints</title>
+        <link rel="stylesheet" href="css/style.css">
+    
+    </head>
+
+    <body >
+
+        <div class="container flex">
+            <div class="structure">
+              <h1 class="title">Panier</h1>
+          
+              <table id="table">
+                <thead>
+                  <tr>
+                    <th>Nom de l'article</th>
+                   
+                    <th>Quantité</th>
+                    <th>Price unitaire</th>
+                    <th>Sous total</th>
+                   
+                  </tr>
+                </thead>
+                <tbody id="all_products">
+                 
+                 
+                </tbody>
+                <tfoot>
+                  <tr>
+                    <td><input class="input-product" type="text" id="name_product" placeholder="Ajouter un article" contenteditable></td>
+                    <td><input class="input-price" type="number" step="1" id="price_product" value="5000" contenteditable></td>
+                    <td></td>
+            
+                    <td><button type="button" id="add_button">Ajouter un article</button></td>
+                  </tr>
+                </tfoot>
+              </table>
+              <h2>Total : <span id="total_display">0 fr cfa</span></h2>
+            </div>
+          </div>
+          
+          
+          <script src="js/app.js">
+    
+          </script>
+        
+    </body>
+  
+</html>
